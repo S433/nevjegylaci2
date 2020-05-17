@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+/* Pozicionálás */
+.profile-card {
+  width: 300px;
+  max-width: calc(100vw - 10px);
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  height: 100vh;
+}
+.head, .links {
+  text-align: center;
+}
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}.profile-image {
+  margin-top: -60px;
+}.head, .about {
+  margin-bottom: 10%;
+}
+
+.content {
+  padding: 5% 10%;
+}
+body {
+  background: url("assets/folly2.JPG") no-repeat center center fixed;
+  background-size: cover;
+}
+background {
+  width: 100px;
+  height: 300px;
+}
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}img {
+  padding: 1px;
+  background-color: #666;
+}.content {
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+img:hover {
+  transform: scale(1.1);
+}
+img {
+  filter: grayscale(50%);
+}
+img:hover {
+  transform: rotate(40deg);
+}
+.valaszt {
+   color: rgba(1,1,1,.8);
+}
+#magamszoveg {
+  font-size: 150%;
+  text-align: justify;
+  margin: 50px 15px 15px 15px;
+}
+#magamszoveg::first-letter {
+  padding-left: 40px;
+}
+#oldalvalaszt {
+  width: 120px;
+  height: 90px;
+  position: left;
+  top: 50px;
+  left: 20px;
+  font-size: 120%;
+}
+.tartalom {
+  width: 480px;
+  max-width: calc(100vw - 20px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#tartalom {
+  width: 480px;
+  max-width: calc(100vw - 20px);
+}
+.blue {
+  background-color: rgba(0,0,255,.6);
+  margin: 5px;
+}
+#oldalvalaszt, .tartalom, #tartalom {
+  background-color: rgba(240,210,112,.5);
+  box-shadow: rgba(240,210,112,.8) 10px 10px 50px;
+  border-radius: 5%;
+}
